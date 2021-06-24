@@ -1,22 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     width: 100vw;
     height: 100vh;
     padding: 20px;
-    box-sizing: border-box;
+    background: center / cover url('./bg-movie.jpg');
     overflow-x: hidden;
+}
+
+h1 {
+    color: white;
 }
 
 #search-container {
     max-width: fit-content;
 }
 
-#myCard {
-    
-}
-
 img {
     max-width: 100%;
-    max-height: 600px;
+    max-height: 500px;
 }
 
 #movieInfo {
