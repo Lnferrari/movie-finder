@@ -8,10 +8,40 @@ body {
 
 #search-container {
     max-width: fit-content;
-    margin: 0 auto;
 }
 
-#main {
-    width: 100%;
-    padding: 10px;
+#myCard {
+    
+}
+
+img {
+    max-width: 100%;
+    max-height: 600px;
+}
+
+#movieInfo {
+    background: linear-gradient(#000000, #8f8f8f);
+}
+
+.date,
+.duration,
+.wrapper-data span {
+    color: rgb(204, 204, 204);
+}
+
+.genres {
+    background-color: #ccccccc7;
+}
+
+small span {
+    padding: 5px;
+    margin: 5px 7px 5px 0px;
+    background-color: #00000060;
+    color: black;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 5px #000000c0;
+}
+
+small span:last-child {
+    margin-right: 0px;
 }
