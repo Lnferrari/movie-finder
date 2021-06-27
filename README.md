@@ -1,5 +1,7 @@
 # movie-finder
 
+### Exercise given in class in order to practice fetch
+
 In this project we will build Movie Search App using Fetch
 this is an example about this project deployed with netlify 
 [movie-search-app](https://compassionate-stonebraker-36a5b5.netlify.app/)
@@ -109,6 +111,3 @@ http://www.omdbapi.com/?apikey=[yourkey]&s=Avengers Endgame
 -   Box Office results
 -   Production company
 -   Website(s)
-
-
-![enter image description here](https://drscdn.500px.org/photo/1021917306/m=900/v2?sig=2c4b4b9b6f9005ccb25a5794a89d97243f12ac6bc9fa22eb393a664c0e9c52fe)
