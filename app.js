@@ -6,7 +6,7 @@ const moviesContainer = document.querySelector('.movies-container')
 
 // functions
 async function getMovieInfo(movieID) {
-    const res = await fetch(`https://www.omdbapi.com/?apikey=125534f8&i=${movieID}`)
+    const res = await fetch(`http://www.omdbapi.com/?apikey=125534f8&i=${movieID}`)
     const result = await res.json()
     return result
 }
@@ -42,7 +42,7 @@ async function displayMovie(movie) {
 
 async function searchMovies(title){
     try {
-        const res = await fetch(`https://www.omdbapi.com/?apikey=125534f8&s=${title}`);
+        const res = await fetch(`http://www.omdbapi.com/?apikey=125534f8&s=${title}`);
         const result = await res.json();
         let moviesArray = result.Search.sort((a,b) => b.Year - a.Year);
         for(let movie of moviesArray){
